@@ -1,0 +1,41 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+margin:0;
+padding:0;
+font-family:"微软雅黑", Arial;
+font-size:14px;
+text-align:center;
+}
+div,form,p,img,ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6{
+	margin:0;
+	padding:0;
+	border:0;
+}
+ul,ol.li{
+list-style-type:none;
+}
+table,td,tr,th,input,select{font-size:14px;}
+input{font-family:Arial;}
+table{border-collapse:collapse;}/*相邻边被合并*/
+i{font-size:14px;color:red;font-style:normal;margin:0 5px;}
+
+.fl{ float:left;}
+.fr{ float:right;}
+
+a{color:#525252;text-decoration:none;font-family:"微软雅黑";}
+/*a:link {color:#BDBDBD;text-decoration:none;}*/
+/*a:visited {color:#6E1010;text-decoration:none;}*/
+a:hover {color:#41a6f2;text-decoration:none;}
+/*a:active {color:#6E1010;}*/
+.clear {zoom:1;}
+.clear:after {content:'';display:block;clear:both;height:0px;}
+
+/*清除浮动*/
+.clear {clear:both; display:block; overflow:hidden; visibility:hidden; width:0;height:0}
+.clearfix:after {clear:both; content:' '; display:block; font-size:0; line-height:0; visibility:hidden; width:0; height:0}
+.clearfix {*zoom:1}
+.clearit{ clear:both}
+/*清除浮动*/
+
+body,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th{margin:0;padding:0; text-align:left;}fieldset,img{border:0}address,caption,cite,code,dfn,em,th,var{font-style:normal;font-weight:normal}ol,ul{list-style:none}caption,th{text-align:left}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}q:before,q:after{content:''}abbr,acronym{border:0;font-variant:normal}sup{vertical-align:text-top}sub{vertical-align:text-bottom}input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit}*+html input,textarea,select{font-size:100%}legend{color:#000}#yui3-css-stamp.cssreset{display:none}
